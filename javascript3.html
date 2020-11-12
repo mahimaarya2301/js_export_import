@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bootstrap 4 Example</title>
+		<meta charset="utf-8">
+		
+	</head>
+	<body>
+
+		<div class="container-fluid">
+		  
+		</div>
+		
+		<script>
+			//Class Decleration
+			class MyClass{
+				//1. Property
+				
+				//2. Constructor
+				
+				//3. Methods
+				showName(name){ // name formal arg
+					//alert('Hello '+name);
+					return 'Hello '+name;
+				}
+			}
+			
+			//Create External Object
+			let obj = new MyClass();
+			
+			//Access the Member using . member selection operator 
+			let msg = obj.showName('Sunil');//Actual Arg
+			
+			//alert(msg);
+			alert(`Welcome ${msg}`);
+		</script>
+	</body>
+</html>

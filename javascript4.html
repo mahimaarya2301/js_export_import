@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bootstrap 4 Example</title>
+		<meta charset="utf-8">
+		
+	</head>
+	<body>
+
+		<div class="container-fluid">
+		  
+		</div>
+		
+		<script type="module">
+			// import { Something } from  'SomeLibrary';
+			import { MyClass,MyClass2 } from './class.js';
+			
+			//Create External Object of the class
+			let Obj = new MyClass();
+			let Obj2 = new MyClass2();
+			//Access member using member selection operator (.)
+			
+			let m = Obj.showName('Anil');
+			
+			let m2 = Obj.showName('Sunil');
+			//alert(m);
+			alert(`Welcome ${m}`);
+			alert(`Welcome ${m2}`);
+			
+		</script>
+	</body>
+</html>
