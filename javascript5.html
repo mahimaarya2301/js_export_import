@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bootstrap 4 Example</title>
+		<meta charset="utf-8">
+  
+	</head>
+	<body>
+
+		<div class="container-fluid">
+  
+		</div>
+		<script type="module">
+			//Class Decleration
+			class A{
+				//1.Property
+				
+				//2.Constructor
+				constructor(){
+				
+				alert("Hello from A constructor");
+				}
+				
+				//3.Method
+				add(x,y){ //x,y are formal args
+				
+					//alert("The sum is "+(x+y));
+					return "The sum is "+(x+y);
+				}
+			
+			}
+			//Create an external object
+			let obj = new A();
+			//Access the member using member selection operator (.)
+			var m = obj.add(45,80)//Actual args
+			alert(m);
+			
+			import { B } from './class2.js';
+		
+		</script>
+	</body>
+</html>
